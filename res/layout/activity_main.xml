@@ -8,9 +8,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+    <Button
+        android:id="@+id/goButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_below="@+id/ikinciEvent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="GO!" />
+
+    <Button
+        android:id="@+id/ilkEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ikinciEvent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="İlk Event" />
+
+    <Button
+        android:id="@+id/ikinciEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="İkinci Event" />
 
 </RelativeLayout>
